@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="title_logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <!--  Body contains 4 divs inside it: header_bar, side_bar, main_content and footer_bar  -->
+    <div class="header_bar">
+      <!-- HeaderBar div contains 5 divs inside it: Hlogo, Hhome, Hsearch, Hsignup and Hlogin-->
+      <div id="Hlogo"><img src="spotify_logo.png" /></div>
+      <div id="Hhome">
+        <i class="fa-solid fa-house"></i>
+      </div>
+      <div id="Hsearch">
+        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+        <a
+          >What do you want to
+          play?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a
+        >
+        <i class="fab fa-edge" id="browse"></i>
+      </div>
+      <div id="Hsignup"><a href="#">Sign up</a></div>
+      <div id="Hlogin"><a href="#">Log in</a></div>
+      <!-- End of Header Bar -->
+    </div>
+    <div class="sidebar">
+      <!-- Side Bar Begins -->
+      <div id="library">
+        <div id="imglib">
+          <img src="library_icon.png" />
+          <span>Your Library</span>
+          <a href="#"><i class="fa-solid fa-plus"></i></a>
+        </div>
+        <div id="createplaylist">
+          <h4>Create your first playlist</h4>
+          <h5>It's easy, we'll help you</h5>
+          <div><a href="#">Create Playlist</a></div>
+        </div>
+        <div id="browsepodcasts">
+          <h4>Let's find some podcasts to follow</h4>
+          <h5>We'll keep you updated on new episodes</h5>
+          <div><a href="#">Browse Podcasts</a></div>
+        </div>
+        <div id="linksection">
+          <div class="first">
+            <a href="#">Legal</a>
+            <a href="#">Safety & Privacy Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+          </div>
+          <div class="second">
+            <a href="#">About Ads</a>
+            <a href="#">Accessibility</a>
+          </div>
+          <div><a href="#" class="third">Cookies</a></div>
+        </div>
+        <div class="global_logo">
+          <i class="fa-solid fa-globe"></i>
+          <a href="#">English</a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Sidebar-->
+
+    <div class="main_content">
+      <!-- Main_Content_Section Begins -->
+
+      <!-- Popoular Artists Section -->
+      <div class="heading">
+        <h1>Popular artists</h1>
+        <a href="#">Show all</a>
+      </div>
+      <div class="artist">
+        <div id="first" class="image">
+          <img src="artist1.jpeg" />
+          <div id="name">Pritam</div>
+          <div id="desg">Artist</div>
+        </div>
+        <div id="second" class="image">
+          <img src="artist2.jpeg" />
+          <div id="name">A.R.Rahman</div>
+          <div id="desg">Artist</div>
+        </div>
+        <div id="third" class="image">
+          <img src="artist3.jpeg" />
+          <div id="name">Sachin - Jigar</div>
+          <div id="desg">Artist</div>
+        </div>
+        <div id="fourth" class="image">
+          <img src="artist4.jpeg" />
+          <div id="name">Arijit Singh</div>
+          <div id="desg">Artist</div>
+        </div>
+        <div id="fifth" class="image">
+          <img src="artist5.jpeg" />
+          <div id="name">Arirudh Ravichander</div>
+          <div id="desg">Artist</div>
+        </div>
+        <div id="sixth" class="image">
+          <img src="artist6.jpeg" />
+          <div id="name">Atif Aslam</div>
+          <div id="desg">Artist</div>
+        </div>
+      </div>
+      <br />
+      <!-- Popular Albums Section -->
+      <div class="heading">
+        <h1>Popular albums</h1>
+        <a href="#">Show all</a>
+      </div>
+      <div class="album">
+        <div id="first" class="image">
+          <img src="album1.jpeg" />
+          <div id="albname">GLORY</div>
+          <div id="singer">Yo Yo Honey Singh</div>
+        </div>
+        <div id="second" class="image">
+          <img src="album2.jpeg" />
+          <div id="albname">Aashiqui 2</div>
+          <div id="singer">Mithoon, Ankit Tiwari, Jeet Gannguli</div>
+        </div>
+        <div id="third" class="image">
+          <img src="album3.jpeg" />
+          <div id="albname">Jo Tum Mere Ho</div>
+          <div id="singer">Anuv Jain</div>
+        </div>
+        <div id="fourth" class="image">
+          <img src="album4.jpeg" />
+          <div id="albname">Making Memories</div>
+          <div id="singer">Karan Aujla, Ikky</div>
+        </div>
+        <div id="fifth" class="image">
+          <img src="album5.jpeg" />
+          <div id="albname">Yeh Jawaani Hai Deewani</div>
+          <div id="singer">Pritam</div>
+        </div>
+        <div id="sixth" class="image">
+          <img src="album6.jpeg" />
+          <div id="albname">Aaj Ki Raat (From "Stree 2")</div>
+          <div id="singer">Sachin-Jigar, Amitabh Bhattacharya</div>
+        </div>
+      </div>
+      <!-- Popular Radios Section -->
+      <div class="heading">
+        <h1>Popular radio</h1>
+        <a href="#">Show all</a>
+      </div>
+      <div class="radio">
+        <div id="first" class="image">
+          <img src="radio1.jpeg" />
+          <div id="radiosinger">With Atif Aslam, &nbsp; Sacin-Sagar,...</div>
+        </div>
+        <div id="second" class="image">
+          <img src="radio2.jpeg" />
+          <div id="radiosinger">With Mohammed Rafi, Mukesh, Asha...</div>
+        </div>
+        <div id="third" class="image">
+          <img src="radio3.jpeg" />
+          <div id="radiosinger">With Karan Aujla, AP Dhillon, Shubh and...</div>
+        </div>
+        <div id="fourth" class="image">
+          <img src="radio4.jpeg" />
+          <div id="radiosinger">With Pritam, Mohit Chauhan, Armaan...</div>
+        </div>
+        <div id="fifth" class="image">
+          <img src="radio5.jpeg" />
+          <div id="radiosinger">With Harris Jayaraj, G.V. Prakash,...</div>
+        </div>
+        <div id="sixth" class="image">
+          <img src="radio6.jpeg" />
+          <div id="radiosinger">With Abhijeet, Uttam Singh, Lata...</div>
+        </div>
+      </div>
+      <br />
+      <!-- Featured Charts Section -->
+      <div class="heading">
+        <h1>Featured Charts</h1>
+      </div>
+      <div class="chart">
+        <div id="first" class="image">
+          <img src="chart1.jpg" />
+          <div id="chartdesc">
+            Your weekly update &nbsp; of the most played...
+          </div>
+        </div>
+        <div id="second" class="image">
+          <img src="chart2.jpg" />
+          <div id="chartdesc">
+            Your weekly update &nbsp; of the most played...
+          </div>
+        </div>
+        <div id="third" class="image">
+          <img src="chart3.jpg" />
+          <div id="chartdesc">Your daily update of the most played...</div>
+        </div>
+        <div id="fourth" class="image">
+          <img src="chart4.jpg" />
+          <div id="chartdesc">Your daily update of the most played...</div>
+        </div>
+        <div id="fifth" class="image">
+          <img src="chart5.jpg" />
+          <div id="chartdesc">Your daily update of the most viral track...</div>
+        </div>
+        <div id="sixth" class="image">
+          <img src="chart6.jpg" />
+          <div id="chartdesc">Your daily update of the most viral track...</div>
+        </div>
+      </div>
+      <br />
+      <!-- Playlists From Our Editors Section -->
+      <div class="heading">
+        <h1>Playlists from our Editors</h1>
+        <a href="#">Show all</a>
+      </div>
+      <div class="pfoe">
+        <div id="first" class="image">
+          <img src="editor1.jpeg" />
+          <div id="pfoedesc">Warm familier pop you know and love...</div>
+        </div>
+        <div id="second" class="image">
+          <img src="editor2.jpeg" />
+          <div id="pfoedesc">Rock legends & epic songs that continu...</div>
+        </div>
+        <div id="third" class="image">
+          <img src="editor3.jpeg" />
+          <div id="pfoedesc">chill beats, lofi vibes, new tracks every...</div>
+        </div>
+        <div id="fourth" class="image">
+          <img src="editor4.jpeg" />
+          <div id="pfoedesc">The biggest songs of the 2020s. Cove...</div>
+        </div>
+        <div id="fifth" class="image">
+          <img src="editor5.jpeg" />
+          <div id="pfoedesc">Just lean back and enjoy relaxed beats.</div>
+        </div>
+        <div id="sixth" class="image">
+          <img src="editor6.jpeg" />
+          <div id="pfoedesc">The hottest 50. Cover: ROSE &...</div>
+        </div>
+      </div>
+      <!-- Table Section -->
+      <div class="table">
+        <div id="company">
+          Company
+          <div>
+            <a href="#">About</a>
+            <a href="#">Jobs</a>
+            <a href="#">For The Record</a>
+          </div>
+        </div>
+        <div id="communities">
+          Communities
+          <div>
+            <a href="#">For Artists</a>
+            <a href="#">Developers</a>
+            <a href="#">Advertising</a>
+            <a href="#">Investors</a>
+            <a href="#">Vendors</a>
+          </div>
+        </div>
+        <div id="useful_links">
+          Useful links
+          <div>
+            <a href="#">Support</a>
+            <a href="#">Free Mobile App</a>
+          </div>
+        </div>
+        <div id="spotify_plans">
+          Spotify Plans
+          <div>
+            <a href="#">Premium Individual</a>
+            <a href="#">Premium Duo</a>
+            <a href="#">Premium Family</a>
+            <a href="#">Premium Student</a>
+            <a href="#">Spotify Free</a>
+          </div>
+        </div>
+        <div id="icons">
+          <span
+            ><a href="https://www.instagram.com/Inzmam__27"><i class="fa-brands fa-instagram"></i></a>
+          </span>
+          <span
+            ><a href="https://x.com/Inzmam_Ansari_?t=15CGYoX1HVUwNNBq4TNz5A&s=08"><i class="fa-brands fa-twitter"></i></a>
+          </span>
+          <span
+            ><a href="https://www.linkedin.com/in/inzmam-ansari27"> <i class="fa-brands fa-linkedin"></i></a
+          ></span>
+        </div>
+      </div>
+      <hr style="color: white" />
+      <div class="lastsection">
+        &copy; 2024 Spotify AB
+        <div class="inzi">Created By Inzi</div>
+        <a href="Inzi_pic.JPG" target="_main"><img src="Inzi_pic.JPG" /></a>
+      </div>
+    </div>
+    <div class="footer_bar">
+      <div id="part1">
+        <div>Preview of Spotify</div>
+        <div style="font-weight: 400">
+          Sign up to get unlimited songs and podcasts with occasional ads. No
+          credit card needed.
+        </div>
+      </div>
+      <div id="part2">
+        <div class="box">
+          <!-- <div class="signupfree"></div> -->
+          <a href="#">Sign up for free</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
